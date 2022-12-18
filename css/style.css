@@ -47,4 +47,5 @@ body {
   font-size: var(--fs-14);
   line-height: 1.2;
   overflow-x: hidden;
+  background-color: var(--clr-black);
 }
