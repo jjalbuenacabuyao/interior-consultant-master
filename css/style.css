@@ -1,0 +1,18 @@
+:root {
+  --ff-crimson: 'Crimson Pro', serif;
+  --ff-lora: 'Lora', serif;
+  --ff-monserrat: 'Montserrat', sans-serif;
+
+  --fs-10: 0.625rem;
+  --fs-12: 0.75rem;
+  --fs-14: 0.875rem;
+  --fs-18: 1.125rem;
+  --fs-24: 1.5rem;
+  --fs-36: 2.25rem;
+  --fs-48: 3rem;
+
+  --fw-200: 200;
+  --fw-400: 400;
+  --fw-500: 500;
+  --fw-700: 700;
+}
