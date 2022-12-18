@@ -17,6 +17,14 @@
   --fw-700: 700;
 }
 
+.font-lora {
+  font-family: var(--ff-lora);
+}
+
+.font-crimson {
+  font-family: var(--ff-crimson);
+}
+
 *,
 *::after,
 *::after {
@@ -30,3 +38,4 @@ img {
   display: block;
   max-width: 100%;
 }
+
