@@ -39,3 +39,9 @@ img {
   max-width: 100%;
 }
 
+body {
+  font-family: var(--ff-monserrat);
+  font-size: var(--fs-14);
+  line-height: 1.2;
+  overflow-x: hidden;
+}
