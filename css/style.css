@@ -90,11 +90,13 @@ a:visited {
 body {
   font-family: var(--ff-monserrat);
   font-size: var(--fs-14);
+  font-size: clamp(0.875rem, 0.65rem + 0.94vw, 1.5rem);
   line-height: 1.2;
   overflow-x: hidden;
   background-color: var(--clr-black);
   color: var(--clr-white);
   padding: 1.25rem 0.75rem 10rem;
+  padding-inline: clamp(0.75rem, -0.68rem + 6.10vw, 4.8125rem);
 }
 
 .page-header {
@@ -139,10 +141,12 @@ body {
 .text-container > h1 {
   font-size: var(--fs-36);
   font-weight: var(--fw-500);
+  font-size: clamp(2.25rem, 1.99rem + 1.13vw, 3rem);
 }
 
 .text-container > p {
   width: 15.625rem;
+  width: clamp(15.625rem, 12.10rem + 15.02vw, 25.625rem);
 }
 
 .read-more {
@@ -153,6 +157,8 @@ body {
   display: flex;
   align-items: center;
   gap: 0.9375rem;
+  font-size: var(--fs-14);
+  font-size: clamp(0.875rem, 0.79rem + 0.38vw, 1.125rem);
 }
 
 .post-container {
@@ -175,6 +181,7 @@ body {
   width: 13.125rem;
   font-weight: var(--fw-700);
   font-size: var(--fs-18);
+  font-size: clamp(1.125rem, 0.99rem + 0.56vw, 1.5rem);
 }
 
 .designer {
@@ -192,8 +199,10 @@ body {
 
 .designer-name {
   font-size: var(--fs-12);
+  font-size: clamp(0.75rem, 0.71rem + 0.19vw, 0.875rem);
 }
 
 .designer-role {
   font-size: var(--fs-10);
+  font-size: clamp(0.625rem, 0.58rem + 0.19vw, 0.75rem);
 }
