@@ -28,6 +28,40 @@
   font-family: var(--ff-crimson);
 }
 
+.hidden {
+  display: none;
+}
+
+.material-icons-round {
+  font-family: "Material Icons";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 28px; /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  color: inherit;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: "liga";
+}
+
+.md-light {
+  color: var(--clr-white);
+}
+
 *,
 *::after,
 *::after {
@@ -42,6 +76,17 @@ img {
   max-width: 100%;
 }
 
+ul {
+  list-style: none;
+}
+
+a,
+a:active,
+a:visited {
+  color: inherit;
+  text-decoration: none;
+}
+
 body {
   font-family: var(--ff-monserrat);
   font-size: var(--fs-14);
@@ -49,4 +94,43 @@ body {
   overflow-x: hidden;
   background-color: var(--clr-black);
   color: var(--clr-white);
+  padding: 1.25rem 0.75rem;
+}
+
+.page-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  padding: 0.5rem;
+  border: 1px solid var(--clr-white);
+  width: max-content;
+}
+
+.logo > p {
+  text-transform: uppercase;
+}
+
+.nav-toggle {
+  background-color: transparent;
+  border: none;
+}
+
+.nav {
+  position: fixed;
+  inset: 0;
+  transform: translateX(-100%);
+}
+
+.container {
+  padding-block-start: 2.375rem;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 1.5rem;
 }
